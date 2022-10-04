@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&family=Anton&family=Archivo:wght@200&family=Bungee+Spice&family=Comfortaa:wght@300&family=Lato:wght@300;400;700&family=Lobster&family=Nabla&family=Open+Sans:wght@300&family=Plus+Jakarta+Sans:wght@200;300&family=Poppins:wght@300&family=Quantico&family=Roboto:wght@100;300&family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    font-family: 'Poppins';
+    
+}
+body{
+    background-color: rgb(8, 8, 71);
+    color:white;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 3rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    padding:5px;
+    color:rgb(195, 195, 195);
+    height: 220px;
+    width: 200px;
+    box-shadow: 6px 5px 12px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 5px 12px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 5px 12px -2px rgba(0,0,0,0.75);
+
+
+}
