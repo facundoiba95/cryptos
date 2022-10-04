@@ -4,7 +4,7 @@ const input = document.querySelector('.input')
 const btnBuscar = document.querySelector('.btnBuscar')
 const cargando = document.querySelector('.cargando')
 
-const createHTMLEquipos = array => {
+const createHTMLCrypto = array => {
     const {name, symbol, price_btc, price_usd} = array;
     return `
     <li class="card">
@@ -17,7 +17,7 @@ const createHTMLEquipos = array => {
 }
 
 const renderCreateHTMLCrypto = (array, actual)=> {
-cards.innerHTML += array[actual].map(createHTMLEquipos).join('')
+cards.innerHTML += array[actual].map(createHTMLCrypto).join('')
 }
 
 const resetCount = coins => {

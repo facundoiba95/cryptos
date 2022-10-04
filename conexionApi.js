@@ -1,6 +1,6 @@
 
 const urlBase = `https://api.coinlore.net/api/tickers/`;
-const apiKey = `EA2F4AA2-EE7D-4D2D-89CA-D7B92B476E1F`
+
 
 
 const requestApi = async (valor) => {
